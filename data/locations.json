@@ -263,12 +263,12 @@
     "requires": "|Occurrence Domain|"
   },
   {
-    "name": "Complete Occurrence: Abnormal Domain",
+    "name": "Complete Occurrence Abnormal Domain",
     "region": "Difficulty 2",
     "category": [
       "Domains"
     ],    
-    "requires": "|Occurrence: Abnormal Domain|"
+    "requires": "|Occurrence Abnormal Domain|"
   },
   {
     "name": "Complete Reward Domain",
@@ -316,6 +316,14 @@
     "category": [
       "Domains"
     ],    
-    "requires": "|Respite Domain|"
+    "requires": "|Respite Domain| AND |Boss Domain|"
+  },
+  {
+    "name": "Complete Boss Domain",
+    "region": "Difficulty 1",
+    "category": [
+      "Domains"
+    ],    
+    "requires": "|Boss Domain|"
   }
 ]

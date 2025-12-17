@@ -5,24 +5,30 @@
   "filler_item_name": "Filler",
     "starting_items": [
       {
-        "item_categories": [
-          "Paths"
-        ],
-        "random":  1
-      },
-      {
-        "item_categories": [
-          "Dice"
-        ],
-        "random":  1
-      },
-      {
         "items": [
           "Difficulty 1",
           "Combat Domain",
           "Respite Domain",
           "Boss Domain"
         ]
+      },
+      {
+        "item_categories": [
+          "Paths"
+        ],
+        "random": 1
+      },
+      {
+        "item_categories": [
+          "Dice"
+        ],
+        "random": 1
+      },
+      {
+        "item_categories": [
+          "Domains"
+        ],
+        "random": 2
       }
     ]
 }
