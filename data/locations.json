@@ -1,0 +1,321 @@
+[
+  {
+    "name": "Beat Difficulty 1",
+    "region": "Difficulty 1",
+    "category": [
+      "Beat a Run"
+    ],
+    "requires": "|Difficulty 1:1|"
+  },
+  {
+    "name": "Beat Difficulty 2",
+    "region": "Difficulty 2",
+    "category": [
+      "Beat a Run"
+    ],
+    "requires": "|Difficulty 2:2|"
+  },
+  {
+    "name": "Beat Difficulty 3",
+    "region": "Difficulty 3",
+    "category": [
+      "Beat a Run"
+    ],
+    "requires": "|Difficulty 3:3|"
+  },
+  {
+    "name": "Beat Difficulty 4",
+    "region": "Difficulty 4",
+    "category": [
+      "Beat a Run"
+    ],
+    "requires": "|Difficulty 4:4|"
+  },
+  {
+    "name": "Beat Difficulty 5",
+    "region": "Difficulty 5",
+    "victory": true,
+    "category": [
+      "Beat a Run"
+    ],
+    "requires": "|Difficulty 5:5|"
+  },
+  {
+    "name": "Beginning: Interastral Peace Corporation",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 1|"
+  },
+  {
+    "name": "Judged as Organic: Associates (I)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 1|"
+  },
+  {
+    "name": "Broadened Cognition: Associates (II)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 1|"
+  },
+  {
+    "name": "Judged as Inorganic: Liquid Gold (I)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 1|"
+  },
+  {
+    "name": "Broadened Cognition: Liquid Gold (II)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 1|"
+  },
+  {
+    "name": "Supreme Organic: Sanguine Condolences (I)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 3| AND |Intra-Cognition Domain|"
+  },
+  {
+    "name": "Supreme Organic: Sanguine Condolences (II)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 3| AND |Intra-Cognition Domain|"
+  },
+  {
+    "name": "Supreme Inorganic: Sanguine Condolences (III)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 3| AND |Intra-Cognition Domain|"
+  },
+  {
+    "name": "Supreme Inorganic: Universe's Throne (I)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 3| AND |Intra-Cognition Domain|"
+  },
+  {
+    "name": "Broadened Cognition: Universe's Throne (II)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 3| AND |Intra-Cognition Domain|"
+  },
+
+  {
+    "name": "Beginning: The Machine Empire",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 1|"
+  },
+  {
+    "name": "Judged as Organic: Bad Thought (I)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 1|"
+  },
+  {
+    "name": "Broadened Cognition: Bad Thought (II)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 1|"
+  },
+  {
+    "name": "Judged as Inorganic: The Suffering *Father* (I)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 1|"
+  },
+  {
+    "name": "Broadened Cognition: The Suffering *Father* (II)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 1|"
+  },
+  {
+    "name": "Supreme Organic: Mental Spices (I)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 3| AND |Intra-Cognition Domain|"
+  },
+  {
+    "name": "Supreme Organic: Mental Spices (II)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 3| AND |Intra-Cognition Domain|"
+  },
+  {
+    "name": "Supreme Inorganic: God's Three Revalations (I)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 3| AND |Intra-Cognition Domain|"
+  },
+  {
+    "name": "Supreme Organic: God's Three Revalations (II)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 3| AND |Intra-Cognition Domain|"
+  },
+  {
+    "name": "Supreme Organic: God's Three Revalations (III)",
+    "category": [
+      "Trailblaze Secrets"
+    ],
+    "requires": "|Difficulty 3| AND |Intra-Cognition Domain|"
+  },
+
+  {    
+    "name": "Bought a Blessing from Screwllum - 1",    
+    "category": [
+      "Shops"
+    ],    
+    "requires": "|Screwllum's Shop| AND |Transaction Domain|"
+  },
+  {    
+    "name": "Bought a Blessing from Screwllum - 2",    
+    "category": [
+      "Shops"
+    ],    
+    "requires": "|Screwllum's Shop| AND |Transaction Domain|"
+  },
+  {
+    "name": "Bought a Blessing from Screwllum - 3",    
+    "category": [
+      "Shops"
+    ],    
+    "requires": "|Screwllum's Shop| AND |Transaction Domain|"
+  },
+  {
+    "name": "Bought a Blessing from Screwllum - 4",    
+    "category": [
+      "Shops"
+    ],    
+    "requires": "|Screwllum's Shop| AND |Transaction Domain|"
+  },
+  {    
+    "name": "Bought a Curio from Herta - 1",    
+    "category": [
+      "Shops"
+    ],    
+    "requires": "|Herta's Shop| AND |Transaction Domain|"
+  },
+  {
+    "name": "Bought a Curio from Herta - 2",    
+    "category": [
+      "Shops"
+    ],
+    "requires": "|Herta's Shop| AND |Transaction Domain|"
+  },
+  {
+    "name": "Bought a Curio from Herta - 3",   
+    "category": [
+      "Shops"
+    ],    
+    "requires": "|Herta's Shop| AND |Transaction Domain|"
+  },
+  {
+    "name": "Bought a Curio from Herta - 4",   
+    "category": [
+      "Shops"
+    ],    
+    "requires": "|Herta's Shop| AND |Transaction Domain|"
+  },
+  {
+    "name": "Complete Combat Domain", 
+    "region": "Difficulty 1",  
+    "category": [
+      "Domains"
+    ],    
+    "requires": "|Combat Domain|"
+  },
+  {
+    "name": "Complete Elite Domain",
+    "region": "Difficulty 2", 
+    "category": [
+      "Domains"
+    ],    
+    "requires": "|Elite Domain|"
+  },
+  {
+    "name": "Complete Occurrence Domain",
+    "region": "Difficulty 1",
+    "category": [
+      "Domains"
+    ],    
+    "requires": "|Occurrence Domain|"
+  },
+  {
+    "name": "Complete Occurrence: Abnormal Domain",
+    "region": "Difficulty 2",
+    "category": [
+      "Domains"
+    ],    
+    "requires": "|Occurrence: Abnormal Domain|"
+  },
+  {
+    "name": "Complete Reward Domain",
+    "region": "Difficulty 2",
+    "category": [
+      "Domains"
+    ],    
+    "requires": "|Reward Domain|"
+  },
+  {
+    "name": "Complete Adventure Domain",
+    "region": "Difficulty 2",
+    "category": [
+      "Domains"
+    ],    
+    "requires": "|Adventure Domain|"
+  },
+  {
+    "name": "Complete Intra-Cognition Domain",
+    "region": "Difficulty 3",
+    "category": [
+      "Domains"
+    ],    
+    "requires": "|Intra-Cognition Domain|"
+  },
+  {
+    "name": "Complete Transaction Domain",
+    "region": "Difficulty 3",
+    "category": [
+      "Domains"
+    ],    
+    "requires": "|Transaction Domain|"
+  },
+  {
+    "name": "Complete Blank Domain",
+    "region": "Difficulty 3",
+    "category": [
+      "Domains"
+    ],    
+    "requires": "|Blank Domain|"
+  },
+  {
+    "name": "Complete Respite Domain",
+    "region": "Difficulty 1",
+    "category": [
+      "Domains"
+    ],    
+    "requires": "|Respite Domain|"
+  }
+]

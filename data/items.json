@@ -1,0 +1,338 @@
+[
+  {
+    "count": 1,
+    "name": "Path of Preservation",
+    "category": [
+      "Paths"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Path of Remembrance",
+    "category": [
+      "Paths"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Path of Elation",
+    "category": [
+      "Paths"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Path of The Hunt",
+    "category": [
+      "Paths"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Path of Destruction",
+    "category": [
+      "Paths"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Path of Nihility",
+    "category": [
+      "Paths"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Path of Abundance",
+    "category": [
+      "Paths"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Path of Propogation",
+    "category": [
+      "Paths"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Path of Erudition",
+    "category": [
+      "Paths"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Trotter Extrapolation Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Walker Symbiosis Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ultra-Remote Beacon Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Occurrence Extrapolation Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Combat Extrapolation Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Pursuit Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Countdown Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Amber Barrier Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Investment Sale Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Company Time Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Curio Extrapolation Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Data Inflation Die",
+    "category": [
+      "Dice"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Difficulty 1",
+    "category": [
+      "Difficulty"
+    ],
+    "progression": true
+  },
+  {
+    "count": "2",
+    "name": "Difficulty 2",
+    "category": [
+      "Difficulty"
+    ],
+    "progression": true
+  },
+  {
+    "count": "3",
+    "name": "Difficulty 3",
+    "category": [
+      "Difficulty"
+    ],
+    "progression": true
+  },
+  {
+    "count": "4",
+    "name": "Difficulty 4",
+    "category": [
+      "Difficulty"
+    ],
+    "progression": true
+  },
+  {
+    "count": "5",
+    "name": "Difficulty 5",
+    "category": [
+      "Difficulty"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Herta's Shop",
+    "category": [
+      "Shops and Upgrades"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Screwllum's Shop",
+    "category": [
+      "Shops and Upgrades"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Enhance Blessings",
+    "category": [
+      "Shops and Upgrades"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Reviver",
+    "category": [
+      "Shops and Upgrades"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Downloader",
+    "category": [
+      "Shops and Upgrades"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Combat Domain",
+    "category": [
+      "Domains"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Elite Domain",
+    "category": [
+      "Domains"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Occurrence Domain",
+    "category": [
+      "Domains"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Occurrence: Abnormal Domain",
+    "category": [
+      "Domains"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Reward Domain",
+    "category": [
+      "Domains"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Adventure Domain",
+    "category": [
+      "Domains"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Intra-Cognition Domain",
+    "category": [
+      "Domains"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Transaction Domain",
+    "category": [
+      "Domains"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Blank Domain",
+    "category": [
+      "Domains"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Respite Domain",
+    "category": [
+      "Domains"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Boss Domain",
+    "category": [
+      "Domains"
+    ],
+    "progression": true
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "Difficulty 1": {    
+    "starting": true,    
+    "connects_to": [
+      "Difficulty 2",
+      "Difficulty 3",
+      "Difficulty 4"
+    ],    
+    "requires": "|Difficulty 1|"
+  },
+  "Difficulty 2": {    
+    "connects_to": [
+      "Difficulty 5"
+    ],    
+    "requires": "|Difficulty 2:2|"
+  },
+  "Difficulty 3": {    
+    "connects_to": [
+      "Difficulty 5"
+    ],    
+    "requires": "|Difficulty 3:3|"
+  },
+  "Difficulty 4": {    
+    "connects_to": [
+      "Difficulty 5"
+    ],    
+    "requires": "|Difficulty 4:4|"
+  },
+  "Difficulty 5": {    
+    "connects_to": [],  
+    "requires": "|Difficulty 5:5|"
+  }
+}
