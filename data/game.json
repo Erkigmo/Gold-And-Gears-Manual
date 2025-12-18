@@ -8,6 +8,7 @@
         "items": [
           "Difficulty 1",
           "Combat Domain",
+          "Transaction Domain",
           "Respite Domain",
           "Boss Domain"
         ]
@@ -28,7 +29,7 @@
         "item_categories": [
           "Domains"
         ],
-        "random": 2
+        "random": 1
       }
     ]
 }
