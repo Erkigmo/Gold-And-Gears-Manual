@@ -45,35 +45,35 @@
     "category": [
       "Trailblaze Secrets"
     ],
-    "requires": "|Difficulty 1|"
+    "requires": "|Difficulty 1| AND |Intra-Cognition Domain|"
   },
   {
     "name": "Judged as Organic: Associates (I)",
     "category": [
       "Trailblaze Secrets"
     ],
-    "requires": "|Difficulty 1|"
+    "requires": "|Difficulty 1| AND |Intra-Cognition Domain|"
   },
   {
     "name": "Broadened Cognition: Associates (II)",
     "category": [
       "Trailblaze Secrets"
     ],
-    "requires": "|Difficulty 1|"
+    "requires": "|Difficulty 1| AND |Intra-Cognition Domain|"
   },
   {
     "name": "Judged as Inorganic: Liquid Gold (I)",
     "category": [
       "Trailblaze Secrets"
     ],
-    "requires": "|Difficulty 1|"
+    "requires": "|Difficulty 1| AND |Intra-Cognition Domain|"
   },
   {
     "name": "Broadened Cognition: Liquid Gold (II)",
     "category": [
       "Trailblaze Secrets"
     ],
-    "requires": "|Difficulty 1|"
+    "requires": "|Difficulty 1| AND |Intra-Cognition Domain|"
   },
   {
     "name": "Supreme Organic: Sanguine Condolences (I)",
@@ -237,93 +237,5 @@
       "Shops"
     ],    
     "requires": "|Herta's Shop| AND |Transaction Domain|"
-  },
-  {
-    "name": "Complete Combat Domain", 
-    "region": "Difficulty 1",  
-    "category": [
-      "Domains"
-    ],    
-    "requires": "|Combat Domain|"
-  },
-  {
-    "name": "Complete Elite Domain",
-    "region": "Difficulty 2", 
-    "category": [
-      "Domains"
-    ],    
-    "requires": "|Elite Domain|"
-  },
-  {
-    "name": "Complete Occurrence Domain",
-    "region": "Difficulty 1",
-    "category": [
-      "Domains"
-    ],    
-    "requires": "|Occurrence Domain|"
-  },
-  {
-    "name": "Complete Occurrence Abnormal Domain",
-    "region": "Difficulty 2",
-    "category": [
-      "Domains"
-    ],    
-    "requires": "|Occurrence Abnormal Domain|"
-  },
-  {
-    "name": "Complete Reward Domain",
-    "region": "Difficulty 2",
-    "category": [
-      "Domains"
-    ],    
-    "requires": "|Reward Domain|"
-  },
-  {
-    "name": "Complete Adventure Domain",
-    "region": "Difficulty 2",
-    "category": [
-      "Domains"
-    ],    
-    "requires": "|Adventure Domain|"
-  },
-  {
-    "name": "Complete Intra-Cognition Domain",
-    "region": "Difficulty 3",
-    "category": [
-      "Domains"
-    ],    
-    "requires": "|Intra-Cognition Domain|"
-  },
-  {
-    "name": "Complete Transaction Domain",
-    "region": "Difficulty 3",
-    "category": [
-      "Domains"
-    ],    
-    "requires": "|Transaction Domain|"
-  },
-  {
-    "name": "Complete Blank Domain",
-    "region": "Difficulty 3",
-    "category": [
-      "Domains"
-    ],    
-    "requires": "|Blank Domain|"
-  },
-  {
-    "name": "Complete Respite Domain",
-    "region": "Difficulty 1",
-    "category": [
-      "Domains"
-    ],    
-    "requires": "|Respite Domain| AND |Boss Domain|"
-  },
-  {
-    "name": "Complete Boss Domain",
-    "region": "Difficulty 1",
-    "category": [
-      "Domains"
-    ],    
-    "requires": "|Boss Domain|"
   }
 ]

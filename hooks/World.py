@@ -14,6 +14,8 @@ from ..Data import game_table, item_table, location_table, region_table
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat
 
+from .functions import get_all_domain_names, generate_excess_domain_names
+
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
 
@@ -47,8 +49,12 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
     # Add your code here to calculate which locations to remove
 
+    for domain_name in get_all_domain_names():
+        print(generate_excess_domain_names(domain_name, get_option_value(multiworld, player, "domain_type_checks"), 10))
+        locationNamesToRemove.extend(generate_excess_domain_names(domain_name, get_option_value(multiworld, player, "domain_type_checks"), 10))
+
     for region in multiworld.regions:
-        if region.player == player:
+        if region.player == player:                
             for location in list(region.locations):
                 if location.name in locationNamesToRemove:
                     region.locations.remove(location)

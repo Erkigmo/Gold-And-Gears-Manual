@@ -1,9 +1,11 @@
+from .functions import get_all_domain_names, generate_domain_checks
+
 # called after the game.json file has been loaded
 def after_load_game_file(game_table: dict) -> dict:
     return game_table
 # called after the items.json file has been loaded, before any item loading or processing has occurred
 # if you need access to the items after processing to add ids, etc., you should use the hooks in World.py
-def after_load_item_file(item_table: list) -> list:
+def after_load_item_file(item_table: list) -> list:    
     return item_table
 
 # NOTE: Progressive items are not currently supported in Manual. Once they are,
@@ -14,6 +16,9 @@ def after_load_progressive_item_file(progressive_item_table: list) -> list:
 # called after the locations.json file has been loaded, before any location loading or processing has occurred
 # if you need access to the locations after processing to add ids, etc., you should use the hooks in World.py
 def after_load_location_file(location_table: list) -> list:
+    for domain_name in get_all_domain_names():
+        location_table.extend(generate_domain_checks(domain_name, 10))
+
     return location_table
 
 # called after the locations.json file has been loaded, before any location loading or processing has occurred

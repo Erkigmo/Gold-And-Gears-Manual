@@ -66,16 +66,16 @@
             "group": "Example Options"
         },
 
-        "DLC_enabled":{
-            "display_name": "DLC Enabled",
-            "description": "Is the Dlc enabled?",
+        "HasSecrets":{
+            "display_name": "Has Trailblaze Secrets",
+            "description": "Include Trailblaze Secrets?",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
                 "complex_ui",
                 "template"
             ],
-            "default": true
+            "default": false
         }
     }
 
