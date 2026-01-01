@@ -57,6 +57,15 @@ def get_secrets() -> list:
 
 	return trailblaze_secrets
 
+def get_shop_names() -> list:
+	shop_names = []
+
+	shop_names.append("Herta's Curio Shop")
+	shop_names.append("Screwllum's Blessing Shop")
+	shop_names.append("Rest Stop")
+
+	return shop_names
+
 def generate_domain_checks(name: str, amount: int) -> list:
 	location_table = []
 
@@ -68,14 +77,37 @@ def generate_domain_checks(name: str, amount: int) -> list:
 		})
 	return location_table
 
+def generate_shop_checks(name: str, amount: int) -> list:
+	location_table = []
+
+	for a in range(amount):
+		location_table.append({
+			'name': "Bought something from " + name + " - " + str(a + 1),
+			'category': ["Shops"],
+			'requires': "|" + name + "| AND |Transaction Domain|"
+		})
+	return location_table
+
 def generate_excess_domain_names(name: str, start: int, end: int) -> list:
+	location_table = []
+
+	difference = end - start
+
+	for a in range(difference):
+		location_table.append(
+			"Complete " + name + " Domain" + " - " + str(a + start + 1)
+		)
+
+	return location_table
+
+def generate_excess_shop_names(name: str, start: int, end: int) -> list:
 	location_table = []
 
 	difference = end - start
 
 	for a in range(difference + 1):
 		location_table.append(
-			"Complete " + name + " Domain" + " - " + str(a + start)
+			"Bought something from " + name + " - " + str(a + start + 1)
 		)
 
 	return location_table

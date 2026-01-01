@@ -209,7 +209,7 @@
   },
   {
     "count": 1,
-    "name": "Herta's Shop",
+    "name": "Herta's Curio Shop",
     "category": [
       "Shops and Upgrades"
     ],
@@ -217,7 +217,15 @@
   },
   {
     "count": 1,
-    "name": "Screwllum's Shop",
+    "name": "Screwllum's Blessing Shop",
+    "category": [
+      "Shops and Upgrades"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rest Stop",
     "category": [
       "Shops and Upgrades"
     ],

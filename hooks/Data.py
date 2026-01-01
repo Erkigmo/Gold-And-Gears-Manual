@@ -1,4 +1,4 @@
-from .functions import get_all_domain_names, generate_domain_checks
+from .functions import get_all_domain_names, get_shop_names, generate_domain_checks, generate_shop_checks
 
 # called after the game.json file has been loaded
 def after_load_game_file(game_table: dict) -> dict:
@@ -18,6 +18,9 @@ def after_load_progressive_item_file(progressive_item_table: list) -> list:
 def after_load_location_file(location_table: list) -> list:
     for domain_name in get_all_domain_names():
         location_table.extend(generate_domain_checks(domain_name, 10))
+
+    for shop_name in get_shop_names():
+        location_table.extend(generate_shop_checks(shop_name, 10))
 
     return location_table
 

@@ -1,42 +1,122 @@
 [
   {
-    "name": "Beat Difficulty 1",
+    "name": "Beat Difficulty 1 Plane 1",
     "region": "Difficulty 1",
     "category": [
-      "Beat a Run"
+      "Difficulty 1"
     ],
     "requires": "|Difficulty 1:1|"
   },
   {
-    "name": "Beat Difficulty 2",
+    "name": "Beat Difficulty 2 Plane 1",
     "region": "Difficulty 2",
     "category": [
-      "Beat a Run"
+      "Difficulty 2"
     ],
     "requires": "|Difficulty 2:2|"
   },
   {
-    "name": "Beat Difficulty 3",
+    "name": "Beat Difficulty 3 Plane 1",
     "region": "Difficulty 3",
     "category": [
-      "Beat a Run"
+      "Difficulty 3"
     ],
     "requires": "|Difficulty 3:3|"
   },
   {
-    "name": "Beat Difficulty 4",
+    "name": "Beat Difficulty 4 Plane 1",
     "region": "Difficulty 4",
     "category": [
-      "Beat a Run"
+      "Difficulty 4"
     ],
     "requires": "|Difficulty 4:4|"
   },
   {
-    "name": "Beat Difficulty 5",
+    "name": "Beat Difficulty 5 Plane 1",
+    "region": "Difficulty 5",
+    "category": [
+      "Difficulty 5"
+    ],
+    "requires": "|Difficulty 5:5|"
+  },
+  {
+    "name": "Beat Difficulty 1 Plane 2",
+    "region": "Difficulty 1",
+    "category": [
+      "Difficulty 1"
+    ],
+    "requires": "|Difficulty 1:1|"
+  },
+  {
+    "name": "Beat Difficulty 2 Plane 2",
+    "region": "Difficulty 2",
+    "category": [
+      "Difficulty 2"
+    ],
+    "requires": "|Difficulty 2:2|"
+  },
+  {
+    "name": "Beat Difficulty 3 Plane 2",
+    "region": "Difficulty 3",
+    "category": [
+      "Difficulty 3"
+    ],
+    "requires": "|Difficulty 3:3|"
+  },
+  {
+    "name": "Beat Difficulty 4 Plane 2",
+    "region": "Difficulty 4",
+    "category": [
+      "Difficulty 4"
+    ],
+    "requires": "|Difficulty 4:4|"
+  },
+  {
+    "name": "Beat Difficulty 5 Plane 2",
+    "region": "Difficulty 5",
+    "category": [
+      "Difficulty 5"
+    ],
+    "requires": "|Difficulty 5:5|"
+  },
+  {
+    "name": "Beat Difficulty 1 Plane 3",
+    "region": "Difficulty 1",
+    "category": [
+      "Difficulty 1"
+    ],
+    "requires": "|Difficulty 1:1|"
+  },
+  {
+    "name": "Beat Difficulty 2 Plane 3",
+    "region": "Difficulty 2",
+    "category": [
+      "Difficulty 2"
+    ],
+    "requires": "|Difficulty 2:2|"
+  },
+  {
+    "name": "Beat Difficulty 3 Plane 3",
+    "region": "Difficulty 3",
+    "category": [
+      "Difficulty 3"
+    ],
+    "requires": "|Difficulty 3:3|"
+  },
+  {
+    "name": "Beat Difficulty 4 Plane 3",
+    "region": "Difficulty 4",
+    "category": [
+      "Difficulty 4"
+    ],
+    "requires": "|Difficulty 4:4|"
+  },
+  {
+    "name": "Beat Difficulty 5 Plane 3",
     "region": "Difficulty 5",
     "victory": true,
     "category": [
-      "Beat a Run"
+      "Difficulty 5"
     ],
     "requires": "|Difficulty 5:5|"
   },
@@ -116,35 +196,35 @@
     "category": [
       "Trailblaze Secrets"
     ],
-    "requires": "|Difficulty 1|"
+    "requires": "|Difficulty 1| AND |Intra-Cognition Domain|"
   },
   {
     "name": "Judged as Organic: Bad Thought (I)",
     "category": [
       "Trailblaze Secrets"
     ],
-    "requires": "|Difficulty 1|"
+    "requires": "|Difficulty 1| AND |Intra-Cognition Domain|"
   },
   {
     "name": "Broadened Cognition: Bad Thought (II)",
     "category": [
       "Trailblaze Secrets"
     ],
-    "requires": "|Difficulty 1|"
+    "requires": "|Difficulty 1| AND |Intra-Cognition Domain|"
   },
   {
     "name": "Judged as Inorganic: The Suffering *Father* (I)",
     "category": [
       "Trailblaze Secrets"
     ],
-    "requires": "|Difficulty 1|"
+    "requires": "|Difficulty 1| AND |Intra-Cognition Domain|"
   },
   {
     "name": "Broadened Cognition: The Suffering *Father* (II)",
     "category": [
       "Trailblaze Secrets"
     ],
-    "requires": "|Difficulty 1|"
+    "requires": "|Difficulty 1| AND |Intra-Cognition Domain|"
   },
   {
     "name": "Supreme Organic: Mental Spices (I)",
@@ -180,62 +260,5 @@
       "Trailblaze Secrets"
     ],
     "requires": "|Difficulty 3| AND |Intra-Cognition Domain|"
-  },
-
-  {    
-    "name": "Bought a Blessing from Screwllum - 1",    
-    "category": [
-      "Shops"
-    ],    
-    "requires": "|Screwllum's Shop| AND |Transaction Domain|"
-  },
-  {    
-    "name": "Bought a Blessing from Screwllum - 2",    
-    "category": [
-      "Shops"
-    ],    
-    "requires": "|Screwllum's Shop| AND |Transaction Domain|"
-  },
-  {
-    "name": "Bought a Blessing from Screwllum - 3",    
-    "category": [
-      "Shops"
-    ],    
-    "requires": "|Screwllum's Shop| AND |Transaction Domain|"
-  },
-  {
-    "name": "Bought a Blessing from Screwllum - 4",    
-    "category": [
-      "Shops"
-    ],    
-    "requires": "|Screwllum's Shop| AND |Transaction Domain|"
-  },
-  {    
-    "name": "Bought a Curio from Herta - 1",    
-    "category": [
-      "Shops"
-    ],    
-    "requires": "|Herta's Shop| AND |Transaction Domain|"
-  },
-  {
-    "name": "Bought a Curio from Herta - 2",    
-    "category": [
-      "Shops"
-    ],
-    "requires": "|Herta's Shop| AND |Transaction Domain|"
-  },
-  {
-    "name": "Bought a Curio from Herta - 3",   
-    "category": [
-      "Shops"
-    ],    
-    "requires": "|Herta's Shop| AND |Transaction Domain|"
-  },
-  {
-    "name": "Bought a Curio from Herta - 4",   
-    "category": [
-      "Shops"
-    ],    
-    "requires": "|Herta's Shop| AND |Transaction Domain|"
   }
 ]

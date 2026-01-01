@@ -35,13 +35,20 @@ class DomainTypeChecks(Range):
     display_name = "Checks Per Domain Type"
     range_start = 1
     range_end = 10
-    default = 1
+    default = 2
+
+class ShopTypeChecks(Range):
+    display_name = "Checks Per Shop Type"
+    range_start = 1
+    range_end = 10
+    default = 3
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options.update({
         'starting_domains': StartingDomains,
-        'domain_type_checks': DomainTypeChecks
+        'domain_type_checks': DomainTypeChecks,
+        'shop_type_checks': ShopTypeChecks
     })
     return options
 
